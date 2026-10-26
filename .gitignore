@@ -1,0 +1,52 @@
+# Kernel module build artifacts
+*.ko
+*.o
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+.tmp_versions/
+Module.symvers
+modules.builtin
+modules.order
+
+# Kbuild generated
+*.cmd
+.*.cmd
+*.d
+
+# C build artifacts
+*.a
+*.so
+*.out
+
+# Userspace test binaries
+userspace/test_basic_rw
+userspace/test_ioctl
+userspace/test_concurrent
+userspace/test_i2c_eeprom
+userspace/main_test
+
+# Build directories
+build/
+obj/
+
+# Log and capture output
+logs/
+*.log
+*.strace
+dmesg_capture_*.txt
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Tags
+tags
+TAGS
+cscope.*

@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: GPL-2.0-only
+# Kbuild file for chardev module
+
+obj-m += chardev.o
+
+chardev-objs := chardev_main.o chardev_i2c.o
